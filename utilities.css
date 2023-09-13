@@ -1,0 +1,67 @@
+/* Classes For Parents */
+
+.jc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+/* Classes For Children */
+
+.md2 {
+    width: 85%;
+}
+
+.md {
+    width: 50%;
+    margin: 14px;
+}
+
+.tf {
+    width: 25%;
+    margin: 14px;
+}
+
+.c {
+    text-align: center;
+}
+
+.top {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
+
+
+
+@media screen and (max-width: 650px) {
+    .jc {
+        display: block;
+        justify-content: center;
+    }
+
+    .md {
+        margin: 18px 0px;
+        width: 90%;
+        position: relative;
+        left: 6.2%;
+    }
+
+    .tf {
+        margin: 18px 0px;
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .md2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .top {
+        margin-top: 3rem;
+    }
+}

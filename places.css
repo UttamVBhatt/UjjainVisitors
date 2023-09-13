@@ -1,0 +1,1457 @@
+.fadeCarousel {
+    width: 100%;
+    height: 800px;
+    animation-name: fade;
+    animation-duration: 21s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+
+}
+
+@keyframes fade {
+    0% {
+        background: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/mahalkaleshwar-temple-night.jpg');
+        background-size: 100% 100%;
+    }
+
+    8% {
+        background: url('https://images.tv9hindi.com/wp-content/uploads/2022/10/mahakal.jpg?w=1200');
+        background-size: 100% 100%;
+    }
+
+    16% {
+        background: url('https://tfipost.com/wp-content/uploads/2023/01/Harsiddhi-Mata-Temple-lights.jpg');
+        background-size: 100% 100%;
+    }
+
+    24% {
+        background: url('https://www.dsource.in/sites/default/files/resource/kumbh-mela-ujjain/ujjain-city/raja-vikramaditya/minigallery/17249/02.jpg');
+        background-size: 100% 100%;
+    }
+
+    32% {
+        background: url('https://www.dsource.in/sites/default/files/resource/kumbh-mela-ujjain/ujjain-city/ram-ghat/minigallery/17247/13.jpg');
+        background-size: 100% 100%;
+    }
+
+    40% {
+        background: url('https://tfiglobalnews.com/wp-content/uploads/2023/03/Shree-Gopal-Mandir-Ujjain-entrance.jpg');
+        background-size: 100% 100%;
+    }
+
+    48% {
+        background: url('https://staticimg.amarujala.com/assets/images/2023/03/22/750x506/ma-gaugdhhakalka_1679458055.jpeg');
+        background-size: 100% 100%;
+    }
+
+    56% {
+        background: url('https://hindi.holidayrider.com/wp-content/uploads/2020/10/entry-fees-Manish-Gupta.imge_.jpg');
+        background-size: 100% 100%;
+    }
+
+    64% {
+        background: url('https://new-img.patrika.com/upload/2019/11/21/bhrathari.jpg');
+        background-size: 100% 100%;
+    }
+
+    72% {
+        background: url('https://www.hlimg.com/images/things2do/738X538/temple-view_1559993497-5411e.jpg');
+        background-size: 100% 100%;
+    }
+
+    80% {
+        background: url('https://www.connectingtraveller.com/images/localtip/1634154643images%20-%202021-10-14T011828.334.jpeg');
+        background-size: 100% 100%;
+    }
+
+    88% {
+        background: url('https://www.trawell.in/admin/images/upload/894160551Ujjain_ISKCON_Temple_Main.jpg');
+        background-size: 100% 100%;
+    }
+
+    96% {
+        background: url('https://www.trawell.in/admin/images/upload/89416026Ujjain_Sandipani_Ashram_Main.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/mahalkaleshwar-temple-night.jpg');
+        background-size: 100% 100%;
+    }
+
+}
+
+@media (max-width: 1800px) {
+    .fadeCarousel {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fadeCarousel {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .fadeCarousel {
+        height: 470px;
+    }
+}
+
+@media (max-width: 420px) {
+    .fadeCarousel {
+        height: 400px;
+    }
+}
+
+@media (max-width: 300px) {
+    .fadeCarousel {
+        height: 380px;
+    }
+}
+
+.jc.top {
+    margin-top: 0rem;
+    overflow: hidden;
+}
+
+.md.slider {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+.border {
+    position: relative;
+    left: 1rem;
+    z-index: 5;
+    width: 93%;
+    height: 296px;
+    border: 3px solid orange;
+    transform: translateY(-12px) rotate(-20deg);
+    border-radius: 10px;
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+
+@keyframes minifade {
+    0% {
+        background: url('https://static.toiimg.com/photo/65666636/mahakal1.jpg?width=748&resize=4');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://static.toiimg.com/photo/94055833.cms');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i.ndtvimg.com/i/2016-07/mahakal-temple-ujjain_650x400_71469009921.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://cdn1.mpbreakingnews.in/wp-content/uploads/2022/10/mpbreaking54596098.jpeg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://static.toiimg.com/photo/65666636/mahakal1.jpg?width=748&resize=4');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+.md p {
+    margin-top: 3rem;
+}
+
+.md div iframe {
+    height: 250px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .md.slider {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider {
+        width: 90%
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.h1 {
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 7rem;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 0px;
+    color: whitesmoke;
+    width: 50%;
+    margin-bottom: 3rem;
+    background-color: rgb(196, 127, 102);
+}
+
+.h1:hover {
+    background-color: rgb(196, 127, 102);
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .h1 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 460px) {
+    .h1 {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .h1 {
+        width: 93%;
+    }
+}
+
+
+
+
+/* SLIDER2 */
+
+@media (max-width: 1200px) {
+    .md.slider2 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider2 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider2 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider2 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade2;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade2 {
+    0% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/19/c6/33/80/harsidhi-maa-ujjain.jpg');
+        background-size: 100% 100%;
+
+    }
+
+    25% {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/f/ff/Harsiddhi_Temple%2C_Ujjain_02.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i0.wp.com/www.dharmwani.com/wp-content/uploads/2021/12/HARSIDDHI-MANDIR-LIGHTS-UJJAIN.jpg?resize=1200%2C900&ssl=1');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Harsiddhi_Temple%2C_Ujjain_02.jpg/800px-Harsiddhi_Temple%2C_Ujjain_02.jpg?20140508034313');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/19/c6/33/80/harsidhi-maa-ujjain.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER3 */
+@media (max-width: 1200px) {
+    .md.slider3 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider3 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider3 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider3 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade3;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade3 {
+    0% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipPbxWd0WfFdTN47bIyE48QFIAgU0Ri-lj7xBpj9=w1080-k-no');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://www.dsource.in/sites/default/files/resource/kumbh-mela-ujjain/ujjain-city/raja-vikramaditya/minigallery/17249/03.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/14/fe/a1/ac/some-arts-inside-vikram.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://thumbs.dreamstime.com/b/vikramaditya-statue-ujjain-madhya-pradesh-vikramaditya-feet-statue-ujjain-madhya-pradesh-india-111540875.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipPbxWd0WfFdTN47bIyE48QFIAgU0Ri-lj7xBpj9=w1080-k-no');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER4 */
+@media (max-width: 1200px) {
+    .md.slider4 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider4 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider4 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider4 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade4;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade4 {
+    0% {
+        background: url('https://content3.jdmagicbox.com/comp/ujjain/u8/9999px734.x734.181219031828.j6u8/catalogue/shree-chardham-mandir-ujjain-temples-elbz4qowx1.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/12/bf/8a/55/shri-badrinath-ji-dham.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/12/bf/8a/16/inside.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://ujjainwala.com/blogimages/bthumb/55.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://content3.jdmagicbox.com/comp/ujjain/u8/9999px734.x734.181219031828.j6u8/catalogue/shree-chardham-mandir-ujjain-temples-elbz4qowx1.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER5 */
+@media (max-width: 1200px) {
+    .md.slider5 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider5 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider5 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider5 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade5;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade5 {
+    0% {
+        background: url('https://staticimg.amarujala.com/assets/images/2022/08/19/750x506/ujajana-ka-gapal-mathara-ka-aakarashhaka-sajavata-ka-gaii-ha_1660912786.jpeg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://img.naidunia.com/naidunia/ndnimg/13032022/13_03_2022-12ujj15a.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://1.bp.blogspot.com/-IZXP6YxgdkI/UXzwqjDHFmI/AAAAAAAAJ9I/iyrJbwlYu04/s1600/1538_hma-69233.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/14/c3/c7/04/gopal-temple-ujjain.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://staticimg.amarujala.com/assets/images/2022/08/19/750x506/ujajana-ka-gapal-mathara-ka-aakarashhaka-sajavata-ka-gaii-ha_1660912786.jpeg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER6 */
+@media (max-width: 1200px) {
+    .md.slider6 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider6 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider6 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider6 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade6;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade6 {
+    0% {
+        background: url('https://www.trawell.in/admin/images/upload/89416026Ujjain_Sandipani_Ashram_Main.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipOoUjqGYCoSaoeo2IdBGu6wQlZfit2kdoUKE-Ad=w296-h202-n-k-no-v1');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/f8/3c/9f/sandipani-ashram.jpg?w=200&h=-1&s=1');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://lh3.googleusercontent.com/p/AF1QipPmkS79EsV0jzJ4PWUe4j-ncqfTnPzvgP_XIy3a');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://www.trawell.in/admin/images/upload/89416026Ujjain_Sandipani_Ashram_Main.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+/* SLIDER7 */
+@media (max-width: 1200px) {
+    .md.slider7 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider7 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider7 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider7 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade7;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade7 {
+    0% {
+        background: url('https://www.hlimg.com/images/things2do/738X538/temple-view_1559993497-5411e.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/11/c8/51/5f/mangalnath-covered-with.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://d3k1i85mml78tf.cloudfront.net/Blogs/1678191233319_post_image_1.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfA-vcveJwKws-nsUPOC4OAietGRw3kmGJy5IF4bihKeQVriT5pNlxL3t2R1qnWIE44bk&usqp=CAU');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://www.hlimg.com/images/things2do/738X538/temple-view_1559993497-5411e.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER8 */
+@media (max-width: 1200px) {
+    .md.slider8 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider8 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider8 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider8 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade8;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade8 {
+    0% {
+        background: url('https://hindi.holidayrider.com/wp-content/uploads/2020/10/entry-fees-Manish-Gupta.imge_.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://www.gurumanishsai.com/uploads/2020/06/facebook_1593306429709_6682811531356020000.png');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i.pinimg.com/originals/60/27/a0/6027a0bfb7593bff2c254859ea434ac7.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://www.indianvisit.com/pictures/travelguide/attractions/kaal-bhairav-temple-4864.jpeg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://hindi.holidayrider.com/wp-content/uploads/2020/10/entry-fees-Manish-Gupta.imge_.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER9 */
+@media (max-width: 1200px) {
+    .md.slider9 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider9 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider9 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider9 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade9;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade9 {
+    0% {
+        background: url('https://staticimg.amarujala.com/assets/images/2023/03/22/750x506/ma-gaugdhhakalka_1679458055.jpeg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://i.ytimg.com/vi/o_GbbSpGKbw/sddefault.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://img.naidunia.com/naidunia/ndnimg/11102021/11_10_2021-shaktipeeth_shri_gadhkalika_mata_temple_ujjain_20211011_145755.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://i.ytimg.com/vi/o_GbbSpGKbw/sddefault.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://staticimg.amarujala.com/assets/images/2023/03/22/750x506/ma-gaugdhhakalka_1679458055.jpeg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER10 */
+@media (max-width: 1200px) {
+    .md.slider10 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider10 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider10 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider10 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade10;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade10 {
+    0% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/8a/33/02/photo6jpg.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://cdn.s3waas.gov.in/s3ab817c9349cf9c4f6877e1894a1faa00/uploads/bfi_thumb/2018032779-olwbgsdzz7ovhozsccj3g8k6mrv1siwlbwfnyn7xxm.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i.ytimg.com/vi/-dx0ZbhSmJ4/maxresdefault.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://lh3.googleusercontent.com/p/AF1QipOKBgYZp2FeJTxVLY35aZ_QZGh4BfFot5dj017f');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/8a/33/02/photo6jpg.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER11 */
+@media (max-width: 1200px) {
+    .md.slider11 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider11 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider11 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider11 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade11;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade11 {
+    0% {
+        background: url('https://static.toiimg.com/photo/msid-94778794/94778794.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://static.langimg.com/thumb/94805897/navbharat-times-94805897.jpg?imgsize=154260&width=540&resizemode=3');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://feeds.abplive.com/onecms/images/uploaded-images/2022/10/11/ebe9308bdfe178da918347a0e46df57870380.jpg?impolicy=abp_cdn&imwidth=800');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://static.langimg.com/thumb/94739882/navbharat-times-94739882.jpg?width=540&resizemode=3');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://static.toiimg.com/photo/msid-94778794/94778794.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER12 */
+@media (max-width: 1200px) {
+    .md.slider12 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider12 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider12 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider12 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade12;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade12 {
+    0% {
+        background: url('https://files.yappe.in/place/full/shri-ram-ghat-26241.webp');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://m.psecn.photoshelter.com/img-get/I0000iPuaYxdenvo/s/1200/I0000iPuaYxdenvo.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i.pinimg.com/originals/34/12/0a/34120a837924baa917238f5d58738ca0.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://www.trawell.in/admin/images/upload/891041978Ram_Ghat.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://files.yappe.in/place/full/shri-ram-ghat-26241.webp');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+/* SLIDER13 */
+@media (max-width: 1200px) {
+    .md.slider13 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider13 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider13 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider13 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade13;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade13 {
+    0% {
+        background: url('https://pbs.twimg.com/media/EdXqugCXkAA0Z4Z.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/02/9c/fd/e7/iskcon-ujjain.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://img.naidunia.com/naidunia/ndnimg/18052022/18_05_2022-iskcon_temple_ujjain_jagannath_rath_yatra_2022519_141216.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://64.media.tumblr.com/5fa018a675fcbfc69bf4b1cbaccfe26d/4c67d84aaee8af59-65/s1280x1920/faa7d92182f215877b431f61f9b1ee0c6e7f72eb.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://pbs.twimg.com/media/EdXqugCXkAA0Z4Z.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+/* SLIDER14 */
+@media (max-width: 1200px) {
+    .md.slider14 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider14 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider14 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider14 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade14;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade14 {
+    0% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/06/d6/f9/e1/jantar-mantar.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://i.pinimg.com/originals/50/27/86/50278642aec84c2efe169cf4c45f652b.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://www.ujjaindarshan.com/images/main/jantar-mantar.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://upload.wikimedia.org/wikipedia/commons/c/c3/%22_Sun_Dial_%22Jantar_Mantar_at_the_Ved_Shala_%28Observatory%29%2C_Ujjain_-_panoramio_%283%29.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/06/d6/f9/e1/jantar-mantar.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER15 */
+@media (max-width: 1200px) {
+    .md.slider15 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider15 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider15 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider15 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade15;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade15 {
+    0% {
+        background: url('https://new-img.patrika.com/upload/2019/11/21/bhrathari.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://sahasa64.files.wordpress.com/2020/10/b-8.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://3.bp.blogspot.com/-p3GR72grqs0/WoMHJZp8l3I/AAAAAAAAIQ8/OnNGRXOzw-0xyxhpSoBcEs7KOk5WrylUwCLcBGAs/s1600/02.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://www.incredibleindia.org/content/dam/incredibleindia/images/places/ujjain/ujjain-bhartrihari-caves-0.jpg/jcr:content/renditions/cq5dam.web.1800.600.jpeg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://new-img.patrika.com/upload/2019/11/21/bhrathari.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+/* SLIDER16 */
+@media (max-width: 1200px) {
+    .md.slider16 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider16 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider16 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider16 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade16;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade16 {
+    0% {
+        background: url('https://img.naidunia.com/naidunia/ndnimg/13122021/13_12_2021-chintaman_ganesh_temple_garbhagriha_20211214_115733.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://www.templepurohit.com/wp-content/uploads/2016/01/chintamani-ganesh-temple.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://hindi.nativeplanet.com/img/2022/08/chintaman-ganesh-temple-ujjain1-1661580526.jpg?22062023144825');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://travelaajkal.com/wp-content/uploads/2023/02/Rupendra-Chouhan.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://img.naidunia.com/naidunia/ndnimg/13122021/13_12_2021-chintaman_ganesh_temple_garbhagriha_20211214_115733.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER17 */
+@media (max-width: 1200px) {
+    .md.slider17 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider17 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider17 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider17 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade17;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade17 {
+    0% {
+        background: url('https://peopleplaces.in/wp-content/uploads/2022/12/Bharat-Mata-Temple-scaled.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://lh3.googleusercontent.com/p/AF1QipOkX1JbW899MJ6Sbcrcbf75x0UqbMfTU6qeqztl=s1600-w400');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://i.redd.it/oj2wknqawy971.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://new-img.patrika.com/upload/2018/01/01/ujj0106.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://peopleplaces.in/wp-content/uploads/2022/12/Bharat-Mata-Temple-scaled.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* MARQUEE SECTION */
+
+
+marquee ol {
+    list-style-type: none;
+    display: flex;
+    margin-top: 4rem;
+}
+
+marquee ol li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+    color: rgb(196, 127, 102);
+}
+
+@media (max-width: 450px) {
+    marquee ol li a {
+        font-size: 1.2rem;
+    }
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */

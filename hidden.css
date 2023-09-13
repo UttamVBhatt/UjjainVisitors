@@ -1,0 +1,1289 @@
+.fadeCarousel {
+    width: 100%;
+    height: 800px;
+    animation-name: fade;
+    animation-duration: 21s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+
+}
+
+@keyframes fade {
+    0% {
+        background: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/mahalkaleshwar-temple-night.jpg');
+        background-size: 100% 100%;
+    }
+
+    8% {
+        background: url('https://images.tv9hindi.com/wp-content/uploads/2022/10/mahakal.jpg?w=1200');
+        background-size: 100% 100%;
+    }
+
+    16% {
+        background: url('https://tfipost.com/wp-content/uploads/2023/01/Harsiddhi-Mata-Temple-lights.jpg');
+        background-size: 100% 100%;
+    }
+
+    24% {
+        background: url('https://www.dsource.in/sites/default/files/resource/kumbh-mela-ujjain/ujjain-city/raja-vikramaditya/minigallery/17249/02.jpg');
+        background-size: 100% 100%;
+    }
+
+    32% {
+        background: url('https://www.dsource.in/sites/default/files/resource/kumbh-mela-ujjain/ujjain-city/ram-ghat/minigallery/17247/13.jpg');
+        background-size: 100% 100%;
+    }
+
+    40% {
+        background: url('https://tfiglobalnews.com/wp-content/uploads/2023/03/Shree-Gopal-Mandir-Ujjain-entrance.jpg');
+        background-size: 100% 100%;
+    }
+
+    48% {
+        background: url('https://staticimg.amarujala.com/assets/images/2023/03/22/750x506/ma-gaugdhhakalka_1679458055.jpeg');
+        background-size: 100% 100%;
+    }
+
+    56% {
+        background: url('https://hindi.holidayrider.com/wp-content/uploads/2020/10/entry-fees-Manish-Gupta.imge_.jpg');
+        background-size: 100% 100%;
+    }
+
+    64% {
+        background: url('https://new-img.patrika.com/upload/2019/11/21/bhrathari.jpg');
+        background-size: 100% 100%;
+    }
+
+    72% {
+        background: url('https://www.hlimg.com/images/things2do/738X538/temple-view_1559993497-5411e.jpg');
+        background-size: 100% 100%;
+    }
+
+    80% {
+        background: url('https://www.connectingtraveller.com/images/localtip/1634154643images%20-%202021-10-14T011828.334.jpeg');
+        background-size: 100% 100%;
+    }
+
+    88% {
+        background: url('https://www.trawell.in/admin/images/upload/894160551Ujjain_ISKCON_Temple_Main.jpg');
+        background-size: 100% 100%;
+    }
+
+    96% {
+        background: url('https://www.trawell.in/admin/images/upload/89416026Ujjain_Sandipani_Ashram_Main.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://assets.traveltriangle.com/blog/wp-content/uploads/2016/12/mahalkaleshwar-temple-night.jpg');
+        background-size: 100% 100%;
+    }
+
+}
+
+@media (max-width: 1800px) {
+    .fadeCarousel {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fadeCarousel {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .fadeCarousel {
+        height: 470px;
+    }
+}
+
+@media (max-width: 420px) {
+    .fadeCarousel {
+        height: 400px;
+    }
+}
+
+@media (max-width: 300px) {
+    .fadeCarousel {
+        height: 380px;
+    }
+}
+
+.jc.top {
+    margin-top: 0rem;
+    overflow: hidden;
+}
+
+.md.slider {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+.border {
+    position: relative;
+    left: 1rem;
+    z-index: 5;
+    width: 93%;
+    height: 296px;
+    border: 3px solid orange;
+    transform: translateY(-12px) rotate(-20deg);
+    border-radius: 10px;
+}
+
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+@keyframes minifade {
+    0% {
+        background: url('https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2023/08/24/whatsapp-image-2023-08-24-at-22123-pm_1692867317.jpeg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2023/08/24/whatsapp-image-2023-08-24-at-22127-pm_1692867307.jpeg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2023/08/24/whatsapp-image-2023-08-24-at-22123-pm_1692867317.jpeg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2023/08/24/whatsapp-image-2023-08-24-at-22127-pm_1692867307.jpeg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://images.bhaskarassets.com/webp/thumb/512x0/web2images/521/2023/08/24/whatsapp-image-2023-08-24-at-22123-pm_1692867317.jpeg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+.md p {
+    margin-top: 3rem;
+}
+
+.md div iframe {
+    height: 250px;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 1200px) {
+    .md.slider {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider {
+        width: 90%
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.h1 {
+    font-family: 'Tajawal', sans-serif;
+    margin-top: 7rem;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    border-top-right-radius: 0px;
+    color: whitesmoke;
+    width: 50%;
+    margin-bottom: 3rem;
+    background-color: rgb(196, 127, 102);
+    transition: 0.5s ease;
+}
+
+.h1:hover {
+    background-color: red;
+    color: yellow;
+}
+
+@media (max-width: 600px) {
+    .h1 {
+        width: 70%;
+    }
+}
+
+@media (max-width: 460px) {
+    .h1 {
+        width: 90%;
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .h1 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER2 */
+
+@media (max-width: 1200px) {
+    .md.slider2 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider2 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider2 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider2 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade2;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade2 {
+    0% {
+        background: url('https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2016-02/10/full/1455105033-5505.gif&w=&h=&outtype=webp');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMm_9Ac6mDvuwDLjxjJWa_L2z_z2s-vyfjQ&usqp=CAU');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2016-02/10/full/1455105033-5505.gif&w=&h=&outtype=webp');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMm_9Ac6mDvuwDLjxjJWa_L2z_z2s-vyfjQ&usqp=CAU');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2016-02/10/full/1455105033-5505.gif&w=&h=&outtype=webp');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER3 */
+@media (max-width: 1200px) {
+    .md.slider3 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider3 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider3 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider3 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade3;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px);
+    background: url('https://lh5.googleusercontent.com/p/AF1QipO2uWAGfMTaS_jwblmIDLNmp2xFb8S75HsLQgqi=w424-h240-k-no');
+    background-size: 100% 100%;
+    transition: 0.5s ease;
+}
+
+
+
+
+/* SLIDER4 */
+@media (max-width: 1200px) {
+    .md.slider4 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider4 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider4 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider4 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade4;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade4 {
+    0% {
+        background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/66/cb/e4/img-6037-largejpg.jpg?w=1200&h=-1&s=1');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://static.toiimg.com/thumb/msid-46837205,width=1200,height=900/46837205.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://www.ujjaintourism.com/wp-content/uploads/2020/01/pir-matsyendranath.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://static.toiimg.com/thumb/msid-46837205,width=1200,height=900/46837205.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/66/cb/e4/img-6037-largejpg.jpg?w=1200&h=-1&s=1');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER5 */
+@media (max-width: 1200px) {
+    .md.slider5 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider5 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider5 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider5 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade5;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px);
+    background: url('https://lh5.googleusercontent.com/p/AF1QipOB7lqufspjFaewIIWFNatsBpKRfxr0fZuvNcJr=w408-h306-k-no');
+    background-size: 100% 100%;
+}
+
+
+
+
+/* SLIDER6 */
+@media (max-width: 1200px) {
+    .md.slider6 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider6 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider6 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider6 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade6;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade6 {
+    0% {
+        background: url('https://www.ujjaindarshan.com/images/main/ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/08/22/a9/d3/tank-in-ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://www.aartigyan.com/Images/TampleImages/16796df5d5ef4463373e0898cc9a8d20Temple.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://pbs.twimg.com/media/EKIcYbuU0AE44sI?format=jpg&name=large');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://www.ujjaindarshan.com/images/main/ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+/* SLIDER7 */
+@media (max-width: 1200px) {
+    .md.slider7 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider7 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider7 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider7 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade7;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade7 {
+    0% {
+        background: url('https://www.ujjaindarshan.com/images/main/ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/08/22/a9/d3/tank-in-ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://www.aartigyan.com/Images/TampleImages/16796df5d5ef4463373e0898cc9a8d20Temple.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        /* background: url('https://pbs.twimg.com/media/EKIcYbuU0AE44sI?format=jpg&name=large');
+        background-size: 100% 100%; */
+    }
+
+    100% {
+        background: url('https://www.ujjaindarshan.com/images/main/ram-janardan.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER8 */
+@media (max-width: 1200px) {
+    .md.slider8 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider8 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider8 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider8 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade8;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade8 {
+    0% {
+        background: url('https://ompandit.com/admin/uploads/myWork/gallery/2020/12/61608285688.jpg');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://i.pinimg.com/736x/15/34/a2/1534a2ebf51725ad0ca12f50e855404a.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://ompandit.com/admin/uploads/myWork/gallery/2020/12/61608285688.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://i.pinimg.com/736x/15/34/a2/1534a2ebf51725ad0ca12f50e855404a.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://ompandit.com/admin/uploads/myWork/gallery/2020/12/61608285688.jpg');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER9 */
+@media (max-width: 1200px) {
+    .md.slider9 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider9 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider9 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider9 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade9;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px);
+    background: url('https://lh5.googleusercontent.com/p/AF1QipMDnLRWHN09tAQxmsrsmh5yZQ_QtSsW7liC_mQq=w408-h544-k-no');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+/* SLIDER10 */
+@media (max-width: 1200px) {
+    .md.slider10 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider10 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider10 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider10 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade10;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px);
+    background: url('https://lh5.googleusercontent.com/p/AF1QipNgFvXpDy94bUltKR2wuSjn2ym7KUSrWP8-__pB=w408-h545-k-no');
+    background-size: 100% 100%;
+}
+
+@keyframes minifade10 {
+    0% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipMWt3UJwKsCo9safygGQGdVl80VzyqOM2sM24Q=w311-h233-p-k-no');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipNgFvXpDy94bUltKR2wuSjn2ym7KUSrWP8-__pB=w408-h545-k-no');
+        background-size: 100% 100%;
+
+    }
+
+    50% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipOSFXqx8ow5qHqWmyJRnHURTCn7sOU8BaaaSiUF=w131-h233-p-k-no');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipNMGJ2Z01X57nATiwfYw9le3mWOayeHNiUtxNw=w175-h233-p-k-no');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipMWt3UJwKsCo9safygGQGdVl80VzyqOM2sM24Q=w311-h233-p-k-no');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER11 */
+@media (max-width: 1200px) {
+    .md.slider11 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider11 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider11 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider11 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade11;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade11 {
+    0% {
+        background: url('https://pbs.twimg.com/media/ENRqCAfW4AAq0Gb?format=jpg&name=large');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://1.bp.blogspot.com/-QMepGoQcAdw/VcTFaGPGDlI/AAAAAAAACOM/J2huvGfQeQI/s1600/_MG_0250%2B-%2BCopy.JPG');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://4.bp.blogspot.com/-WP5nKcECLGg/VcTFTN6sC-I/AAAAAAAACN8/La5U2ejrD3s/s1600/_MG_0243.JPG');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://www.dharmpath.com/wp-content/uploads/2022/02/vishnu-chatushtika.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://pbs.twimg.com/media/ENRqCAfW4AAq0Gb?format=jpg&name=large');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER12 */
+@media (max-width: 1200px) {
+    .md.slider12 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider12 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider12 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider12 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade12;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade12 {
+    0% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipO5RwfUmK7x_AjV3X94pPmLKrzgKBv3LfDOPr3L=w1080-k-no');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://images.hindi.news18.com/ibnkhabar/uploads/2019/05/sani-gallary-1.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://stateexpressindia.com/wp-content/uploads/tiveni-ghat1.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://images.hindi.news18.com/ibnkhabar/uploads/2019/05/sani-gallary-1.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipO5RwfUmK7x_AjV3X94pPmLKrzgKBv3LfDOPr3L=w1080-k-no');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+/* SLIDER13 */
+@media (max-width: 1200px) {
+    .md.slider13 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider13 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider13 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider13 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade13;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade13 {
+    0% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipO2VYZ_Ct7idQEAH_sJ-VhAkRv3WxdlVj_LT4mA=w296-h202-n-k-no-v1');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/5e/54/91/nava-graha-temple.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipO2VYZ_Ct7idQEAH_sJ-VhAkRv3WxdlVj_LT4mA=w296-h202-n-k-no-v1');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/5e/54/91/nava-graha-temple.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipO2VYZ_Ct7idQEAH_sJ-VhAkRv3WxdlVj_LT4mA=w296-h202-n-k-no-v1');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+/* SLIDER14 */
+@media (max-width: 1200px) {
+    .md.slider14 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider14 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider14 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider14 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade14;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade14 {
+    0% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipPGtR1CBjaXZel81MRPtkSqAGqUUZn2fuIDX7eo=w532-h240-k-no');
+        background-size: 100% 100%;
+    }
+
+    25% {
+        background: url('https://www.shaktipatinternational.com/wp-content/uploads/2019/04/22459392_10155385069938248_4086352344680616830_o.jpg');
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('https://siddhaashramujjain.com/wp-content/uploads/2018/09/cropped-IMG-20170428-WA0019.jpg');
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url('https://www.shaktipatinternational.com/wp-content/uploads/2019/04/22459392_10155385069938248_4086352344680616830_o.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://lh5.googleusercontent.com/p/AF1QipPGtR1CBjaXZel81MRPtkSqAGqUUZn2fuIDX7eo=w532-h240-k-no');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER15 */
+@media (max-width: 1200px) {
+    .md.slider15 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider15 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider15 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider15 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade15;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px)
+}
+
+@keyframes minifade15 {
+    0% {
+        background: url('https://new-img.patrika.com/upload/2019/10/22/neelganga.jpg');
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url('https://www.ujjainvocals.com/upload/articles/img-20211110-wa00574669761.jpg?width=800&height=400&crop=auto&scale=both&anchor=topright');
+        background-size: 100% 100%;
+    }
+}
+
+
+
+
+
+/* SLIDER16 */
+@media (max-width: 1200px) {
+    .md.slider16 {
+        width: 40%;
+    }
+}
+
+@media (max-width: 855px) {
+    .md.slider16 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .md.slider16 {
+        width: 90% !important;
+    }
+
+    .md p {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:650px) {
+    .border {
+        width: 87%;
+        transform: translateY(-2px) rotate(-17deg);
+    }
+}
+
+.md.slider16 {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    animation-name: minifade16;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    margin-top: 5rem;
+    border-radius: 10px;
+    transform: translateY(-8px);
+    background: url('https://lh5.googleusercontent.com/p/AF1QipOWCWPIFtSISVif6Fwgw1GLmoQP2uaD-AgOAyxL=w426-h240-k-no');
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/* MARQUEE SECTION */
+
+
+marquee ol {
+    list-style-type: none;
+    display: flex;
+    margin-top: 4rem;
+}
+
+marquee ol li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+    color: rgb(196, 127, 102);
+}
+
+@media (max-width: 450px) {
+    marquee ol li a {
+        font-size: 1.2rem;
+    }
+}
+
+marquee ol li a:hover {
+    color: red
+}
+
+html {
+    scroll-behavior: smooth;
+}

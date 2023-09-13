@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Per Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./perHotel.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./utilities.css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <a href="index.html"><img
+                    src="https://e0.pxfuel.com/wallpapers/188/941/desktop-wallpaper-top-10-shiv-tandav-shiva-tandav.jpg"
+                    alt="Website's Logo"><span id="new">UjjainVisitors</span></a>
+
+
+
+            <ul class="menu">
+                <li class="navLinks diNone"><a href="index.html">Home</a></li>
+                <li class="navLinks"><a href="places.html">Places to Visit</a></li>
+                <li class="navLinks"><a href="hidden.html">Hidden Places of Ujjain</a>
+                </li>
+                <li class="navLinks"><a href="hotels.html" style="color:yellow;">Hotels in Ujjain</a></li>
+                <li class="navLinks"><a href="songs.html">Mahakal Songs</a></li>
+            </ul>
+
+            <div class="divbtn">
+                <button><a href="#" class="black"><i class="fa-solid fa-user-plus"></i><span>Sign Up</span></a></button>
+                <button><a href="#" class="black"><i class="fa-solid fa-right-to-bracket"></i><span>Log
+                            in</span></a></button>
+            </div>
+
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+
+        <div class="gif">
+            <img src="https://media1.giphy.com/media/WW33vGSPHXym7Wh80e/giphy.gif" alt="Loader-Image">
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ////////// CAROUSEL ////////// -->
+        <div class="carousel">
+            <div class="img-container" style="display: block;">
+                <img src="https://media.istockphoto.com/id/1066999762/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=kh1SoNvZYDdAFOadeKxPVssVKVzbMTIuOHQu-RBDoX0="
+                    alt="Hotel's Image">
+            </div>
+            <div class="img-container">
+                <img src="https://media.istockphoto.com/id/1050564510/photo/3d-rendering-beautiful-luxury-bedroom-suite-in-hotel-with-tv.jpg?s=612x612&w=0&k=20&c=ZYEso7dgPl889aYddhY2Fj3GOyuwqliHkbbT8pjl_iM="
+                    alt="Hotel's Image">
+            </div>
+            <div class="img-container">
+                <img src="https://img.freepik.com/premium-photo/3d-rendering-modern-luxury-bedroom-interior_674881-1300.jpg?w=2000"
+                    alt="Hotel's Image">
+            </div>
+            <div class="img-container">
+                <img
+                    src="https://baldthoughts.boardingarea.com/wp-content/uploads/2019/03/Kimpton-Hotel-Madera-King-Bed-Deluxe-Balcony-Room.jpg">
+            </div>
+
+            <div class="dots">
+                <span class="dot active-dot" data-cg="0"></span>
+                <span class="dot" data-cg="1"></span>
+                <span class="dot" data-cg="2"></span>
+                <span class="dot" data-cg="3"></span>
+            </div>
+
+            <button class="btn prev" onclick="show_image(-1)">&#10094;</button>
+            <button class="btn next" onclick="show_image(1)">&#10095;</button>
+        </div>
+
+        <!-- /////////// PROPERTY SECTION /////////// -->
+        <div class="property" data-aos="fade-right">
+            <h3 data-aos="zoom-in">About The Property</h3>
+            <p data-aos="zoom-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi recusandae aperiam
+                atque reprehenderit.
+                Tempora asperiores exercitationem, quae alias iure nam! Nihil inventore ducimus asperiores beatae
+                tempora quos explicabo culpa architecto rem. Quam, voluptas, maxime corrupti explicabo accusantium
+                distinctio ex at, magnam maiores enim alias soluta sequi quod. Reprehenderit itaque illum totam. Magnam
+                temporibus ullam accusantium architecto in sint deleniti. Error fugit nulla, autem aliquid ea quisquam
+                laudantium totam reprehenderit, nobis neque corporis sint</p>
+        </div>
+
+
+        <!-- ///////////// RATINGS SECITON //////////////// -->
+        <div class="ratings-heading">
+            <h3 data-aos="fade-right">Ratings</h3>
+        </div>
+
+
+        <div class="ratings">
+            <div class="rates">
+                <div class="food-container">
+                    <i class="fa-solid fa-utensils fa-bounce"></i>
+                    <span>Food Quality</span>
+                    <span>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-beat-fade"></i>
+                    </span>
+                </div>
+                <div class="cleanliness-container">
+                    <i class="fa-solid fa-broom-ball fa-spin"></i>
+                    <span>Cleanliness</span>
+                    <span>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-beat-fade"></i>
+                        <i class="fa-regular fa-star fa-beat-fade"></i>
+                    </span>
+                </div>
+                <div class="roomservice-container">
+                    <i class="fa-solid fa-house fa-fade"></i>
+                    <span>Room Service</span>
+                    <span>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-regular fa-star fa-beat-fade"></i>
+                    </span>
+                </div>
+                <div class="behaviour-container">
+                    <i class="fa-solid fa-person fa-fade"></i>
+                    <span>Staff's Behaviour</span>
+                    <span>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-regular fa-star fa-beat-fade"></i>
+                    </span>
+                </div>
+                <div class="experience-container">
+                    <i class="fa-sharp fa-solid fa-thumbs-up fa-bounce"></i>
+                    <span>Overall Experience</span>
+                    <span>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star fa-beat-fade"></i>
+                        <i class="fa-solid fa-star-half-stroke fa-beat-fade"></i>
+                        <i class="fa-regular fa-star fa-beat-fade"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="stars">
+                <div class="star">
+                    <span class="content">4.5</span>
+                    <i class="fa-solid fa-star fa-spin"></i>
+                    <i class="fa-solid fa-star fa-spin"></i>
+                    <i class="fa-solid fa-star fa-spin"></i>
+                    <i class="fa-solid fa-star fa-spin"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-spin"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ///////////  REVIEW SECTION ///////// -->
+        <div class="review">
+
+            <h3 data-aos="fade-right">Customer's Review</h3>
+            <div class="reviews" data-aos="zoom-in">
+                <img src="https://media.istockphoto.com/id/863488868/photo/portrait-of-smiling-young-man-in-city-on-sunny-day.jpg?s=612x612&w=0&k=20&c=7tD8Nm7e6eZixJWkuXE99PmX4yEvMkts8DMAiOLv3y8="
+                    alt="Reviewer's Image" class="review-image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, corrupti? Excepturi totam velit
+                    similique quaerat ex necessitatibus soluta voluptas dolores.</p>
+                <span>- Sam</span>
+            </div>
+
+            <div class="reviews" data-aos="zoom-in">
+                <img src="https://cogito-project.eu/wp-content/uploads/2019/01/person2.jpg" alt="Reviewer's Image"
+                    class="review-image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, corrupti? Excepturi totam velit
+                    similique quaerat ex necessitatibus soluta voluptas dolores.</p>
+                <span>- Ariana</span>
+            </div>
+
+            <div class="reviews" data-aos="zoom-in">
+                <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGVyc29ufGVufDB8fDB8fHww&w=1000&q=80"
+                    alt="Reviewer's Image" class="review-image">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, corrupti? Excepturi totam velit
+                    similique quaerat ex necessitatibus soluta voluptas dolores.</p>
+                <span>- Anshul Padiyar</span>
+            </div>
+
+        </div>
+
+        <div class="book-btn">
+            <button class="book">Book Now</button>
+        </div>
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="jc distance footer c">
+        <div class="tf"><a href="index.html">Home</a></div>
+        <div class="tf"><a href="places.html">Significant Places</a></div>
+        <div class="tf"><a href="hidden.html">Hidden Places</a></div>
+        <div class="tf"><a href="hotels.html" style="color:yellow;">Hotels</a></div>
+        <div class="tf"><a href="songs.html">Mahakal Songs</a></div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
+    <script src="./common.js"></script>
+</body>
+
+</html>

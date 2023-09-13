@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body,
+html {
+    position: relative;
+}
+
+/* ///////////////// NAVBAR //////////// */
+
+nav {
+    font-family: 'Tajawal', 'sans-serif';
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    transition: 0.6s ease-in-out;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav a img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+
+#new {
+    position: relative;
+    top: -26px;
+    left: 15px;
+
+}
+
+.hamburger {
+    display: none;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburger .bar {
+    display: block;
+    background-color: whitesmoke;
+    width: 2.3rem;
+    height: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: 0.5s ease-in-out;
+}
+
+nav button {
+    border: none;
+    font-family: 'Tajawal', 'sans-serif';
+    padding: 10px;
+    border-radius: 8px;
+    background-color: orange;
+}
+
+nav button:hover {
+    background-color: orangered;
+}
+
+nav button i {
+    margin-right: 5px;
+    color: whitesmoke;
+}
+
+nav button i:hover {
+    color: yellow;
+}
+
+@media screen and (max-width: 1000px) {
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        top: 5rem;
+        left: -100%;
+        background-color: rgba(0, 0, 0, 1);
+        backdrop-filter: blur(100px);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .divbtn {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 19rem;
+        left: -100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(30px);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        transition: 0.5s ease-in-out;
+        margin-top: 3.7rem;
+    }
+
+    .divbtn button {
+        margin-bottom: 1rem;
+    }
+
+    .hamburger {
+        display: block;
+        transition: 0.5s ease-in-out;
+    }
+
+    .active {
+        left: 0;
+    }
+
+    .hamburger.newHamburger .bar:nth-child(1) {
+        transform: translateY(15px);
+        rotate: 45deg;
+        transition: 0.5s ease-in-out;
+    }
+
+    .hamburger.newHamburger .bar:nth-child(2) {
+        opacity: 0;
+        transition: 0.5s ease-in-out;
+    }
+
+    .hamburger.newHamburger .bar:nth-child(3) {
+        transform: translateY(-15px);
+        rotate: -45deg;
+        transition: 0.5s ease-in-out;
+    }
+
+    #new {
+        font-size: 23px;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+    }
+
+    nav a img {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    #new {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media (max-width: 317px) {
+    #new {
+        font-size: 23px;
+        letter-spacing: 0px;
+        word-spacing: 0px;
+        margin-left: -7px;
+    }
+}
+
+@media (max-width: 450px) {
+    #new {
+        font-size: 1.3rem;
+    }
+}
+
+.diNone {
+    display: none;
+}
+
+
+@media (max-width: 1000px) {
+    .diNone {
+        display: block;
+    }
+}
+
+
+/* ///////////// FOOTER ///////////// */
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    color: whitesmoke;
+    padding: 1rem;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 1.4rem;
+}
+
+.footer .tf {
+    margin-bottom: 1rem;
+}
+
+.footer .tf a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer .tf a:hover {
+    color: yellow
+}
+
+@media (max-width: 450px) {
+    .footer .tf a {
+        font-size: 1.2rem;
+    }
+}
+
+.jc.distance {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+body p {
+    font-family: 'Signika';
+    font-weight: bolder;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+}
+
+
+
+/* //////////// SONG CONTAINER /////////// */
+
+.song-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 5rem auto 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+    backdrop-filter: 5px;
+}
+
+.song-container video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 1rem;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -3;
+}
+
+.main-heading {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    border-radius: 3px;
+    margin: 3rem 0;
+    color: white;
+    font-weight: bolder;
+    padding: 8px 0;
+}
+
+.song-list-container {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.songs-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    user-select: none;
+    margin: 1.2rem auto;
+    backdrop-filter: blur(3px);
+}
+
+.songs-div i {
+    font-size: 2.1rem;
+    cursor: pointer;
+}
+
+.songs-div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 530px) {
+    .song-list-container {
+        width: 99%;
+    }
+
+    .songs-div {
+        font-size: 1.2rem;
+    }
+
+    .songs-div i {
+        font-size: 1.7rem;
+    }
+
+    .songs-div img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 370px) {
+    .song-list-container {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .songs-div {
+        font-size: 1.1rem;
+    }
+
+    .songs-div i {
+        font-size: 1.5rem;
+    }
+
+    .songs-div img {
+        width: 46px;
+        height: 46px;
+    }
+}
+
+/* ///////////////// CARD CONTAINER ///////////////////// */
+
+.cardsContainer {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    transition: 0.5s ease-in-out;
+    z-index: 4;
+    display: none;
+    backdrop-filter: blur(12px);
+}
+
+.cards {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 21px;
+    font-size: 1.3rem;
+    width: 40%;
+    z-index: 5;
+    position: relative;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.5);
+    position: fixed;
+    transform: translateY(-10%);
+    transition: all 0.5s ease;
+}
+
+.cross {
+    width: 100%;
+}
+
+.cross button {
+    position: absolute;
+    top: 3px;
+    right: 12px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    padding: 6px 14px;
+    background: transparent;
+}
+
+.cross button:hover {
+    background-color: black;
+    color: white;
+}
+
+.cardSongName {
+    margin: 1rem 0;
+}
+
+.authorName {
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.cardImage img {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 5px 0;
+}
+
+.controls i {
+    font-size: 1.4rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.controls i:hover {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+}
+
+.inputRange {
+    width: 99%;
+    margin: 1.5rem auto;
+    text-align: center;
+    position: relative;
+}
+
+.range {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.gif {
+    width: 20%;
+    height: 21px;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    display: none;
+}
+
+.cardImageImage {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.anime {
+    animation: fade 3.6s linear infinite;
+}
+
+@keyframes fade {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+.modalView {
+    animation: modal 1s ease-in-out;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.newAnime {
+    animation: newAnime 1.4s ease-in-out;
+}
+
+@keyframes newAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards {
+        width: 70%;
+    }
+}
+
+@media (max-width: 503px) {
+    .range {
+        width: 80%;
+        margin-bottom: 1.5rem auto;
+    }
+
+    .cardImageImage {
+        width: 210px;
+        height: 210px;
+    }
+
+    .inputRange {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .cards {
+        width: 80%;
+    }
+
+    .cardImageImage {
+        width: 182px;
+        height: 182px;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .cards {
+        width: 85%;
+    }
+
+    .cardImageImage {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media (max-width: 300px) {
+    .cards {
+        width: 95%;
+    }
+}
