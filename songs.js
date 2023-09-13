@@ -293,8 +293,8 @@ hamburger.addEventListener('click', function () {
 
 
 
-let gifDiv = document.querySelector(".gif");
-let gifImage = document.querySelector(".gif img");
+let gifDiv = document.querySelector(".gifs");
+let gifImage = document.querySelector(".gifs img");
 
 window.addEventListener("DOMContentLoaded", () => {
     gifDiv.style.display = "none";
